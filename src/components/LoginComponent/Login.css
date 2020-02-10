@@ -1,0 +1,99 @@
+.App {
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  img.avatar {
+
+    width:12%;
+    height:12%;
+    border-radius: 50%;
+  }
+  
+  form {  
+    width: 35vw;
+    margin: 0 auto;
+  }
+  
+  label,
+  input {
+    display: block;
+    width: 100%;
+  }
+
+  label {
+    margin-bottom: 2px;
+    height:3vh;
+  }
+  .label.checkbox{
+    display: flex;
+  }
+
+  .label.checkbox>input{
+    width: auto;  
+}
+
+  #chkb{
+    width: 20px;
+  }
+
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #777;
+  }
+  
+  input.error {
+    border-color: red;
+  }
+  
+  .input-feedback {
+    color: rgb(235, 54, 54);
+    margin-top: -15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .mail, .pwd {
+    margin-bottom: 10px;
+    text-align:left;
+  }
+  .button1 {
+    width:105px;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid rgb(70, 153, 179);
+    background-color: 200ms;
+    padding-right: 15px;
+    margin:15px;
+    
+  }
+    .button2 {
+        width:105px;
+        padding: 10px;
+        background-color: green;
+        border-radius: 10px;
+        color:white;
+        border: 1px solid seagreen;
+        background-color: 200ms;
+  }
+  .action_btn {
+    align-items: center;
+    display: inline-block;
+    margin:10px auto;
+    width: calc(50%-4px);
+  }
+  
+  .button1:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: blue;box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+
+  }
+  .button2:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: green;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19); 
+  }
+
+ 
